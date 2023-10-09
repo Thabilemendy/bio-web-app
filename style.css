@@ -27,10 +27,26 @@
 
 .btn {
   display: block;
+  text-decoration: none;
+  padding: 20px 5px;
   color: black;
-  padding: 20px;
   background: white;
-  margin: 16px;
+  margin: 25px;
+  background: white;
     box-shadow: 5px 10px #888888;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background:  rgba(132,55,249);
+    color: white;
+    transition: 0,3s;
   }
   
+  .social-icons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+.social-icons {
+  margin: 5px;
+  cursor: pointer;
+}
